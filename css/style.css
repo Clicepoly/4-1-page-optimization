@@ -710,5 +710,37 @@ a:focus {
   color: #fbfcfd;
 }
 
+img[src*="w-1.png"] {
+  width: 501px;
+  height: 247px;
+}
+
+img[src*="w-4.png"] {
+  width: 334px;
+  height: 165px;
+}
+
+.owl-prev, .owl-next {
+  background-color: #000; /* Example style */
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.owl-prev {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.owl-next {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
