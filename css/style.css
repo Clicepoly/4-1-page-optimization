@@ -697,7 +697,21 @@ a:focus {
       -ms-flex-pack: center;
           justify-content: center;
 }
+button {
+  background-color: #000000; /* Dark background color */
+  color: #ffffff; /* Light text color */
+  border: 1px solid #ffffff; /* Light border color */
+}
 
+button.btn_on-hover {
+  background-color: #333333; /* Slightly lighter dark background color for hover state */
+  color: #ffffff; /* Light text color */
+  border: 1px solid #ffffff; /* Light border color */
+}
+img {
+  width: 100%;
+  height: auto;
+}
 .footer_section p {
   padding: 20px 65px;
   color: #fbfcfd;
